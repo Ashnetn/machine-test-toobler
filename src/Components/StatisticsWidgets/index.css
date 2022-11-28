@@ -1,0 +1,18 @@
+.card {
+    padding: 20px;
+}
+.info-name {
+    font-size: 20px;
+    color: #1d1d1d;
+    font-weight: 400;
+
+}
+
+.info-count {
+    font-size: 30px;
+    color: #000000;
+    font-weight: 600;
+
+}
+
+

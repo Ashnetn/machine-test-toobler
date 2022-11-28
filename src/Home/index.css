@@ -1,0 +1,86 @@
+/* utilities class  */
+
+
+.active {
+    color: #ffffff;
+}
+
+.home-banner {
+    background-image: url('/public/assets/images/human.jpg');
+    background-size: cover;
+    min-height: 100vh;
+
+}
+
+
+.nav-link {
+    text-decoration: none;
+    color: #cfcfcf;
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    color: #ffffff;
+}
+
+
+
+.line-break {
+    color: #e0e0e0;
+}
+
+.border-line {
+    border-left: 1px solid #a0a0a0;
+}
+
+.border-line-right {
+    border-right: 1px solid #c2c2c2;
+    min-height: 100vh;
+}
+
+.banner-text {
+    font-size: 60px;
+    color: #ffffff;
+    font-weight: 700;
+
+}
+
+@media screen and (max-width: 567px) {
+    .banner-text {
+        font-size: 40px;
+        color: #ffffff;
+        font-weight: 700;
+    
+    }
+}
+
+.banner-button{
+   border: 1px solid rgb(170, 66, 255);
+   border-radius: 50px;
+   padding: 8px 25px;
+   font-size: 18px;
+    color: #ffffff;
+    background-color: transparent;
+    margin-bottom: 10px;
+}
+
+.banner-button:hover { 
+    background-color: rgb(170, 66, 255);
+}
+
+.pinky {
+    background-color: rgb(170, 66, 255);
+}
+
+.salon-info-head {
+    font-size: 15px;
+    color: #cacaca; 
+    font-weight: 400;
+}
+
+.salon-info-desc {
+    font-size: 18px;
+    color: #ffffff; 
+    font-weight: 600;
+}
+
